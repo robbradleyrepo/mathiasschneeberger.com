@@ -1,0 +1,105 @@
+[{
+  "albums": [{
+        "id": "idle-hands",
+        "artist": "FATSO JETSON",
+        "record": "IDLE HANDS",
+        "year": "2016",
+        "label": "Heavy Psych Sounds",
+        "image": " ",
+        "apple_URL": "https://music.apple.com/us/album/idle-hands/1169079725",
+        "spotify_URL": "https://open.spotify.com/album/2UOYs0lQagjM1CxjVZJZip?si=a4fmfhz-QLeyniEPVX7ZYw",
+        "artist__URL": "https://fatsojetson.bandcamp.com/album/idle-hands-2",
+        "credits": "Composer | Producer | Engineer | Mixer | Guitar | Bass | Vocals"
+      },
+      {
+        "id": "yawningman-historical",
+        "artist": "YAWNING MAN",
+        "record": "HISTORICAL GRAFITTI",
+        "year": "2016",
+        "label": "Lay Bare Recordings",
+        "image": " ",
+        "apple_URL": "",
+        "bandcamp_URL": "https://yawningman.bandcamp.com/album/historical-graffiti",
+        "spotify_URL": "https://open.spotify.com/album/450AYOLCd8AltvLRDBMle4?si=eZJOgO_GSUy6xOVvobiHGQ",
+        "artist__URL": "http://yawningman.com/",
+        "credits": "Producer | Engineer | Mixer | Keyboards"
+      },
+      {
+        "id": "earth-primitive",
+        "artist": "EARTH",
+        "record": "PRIMITIVE AND DEADLY",
+        "year": "2014",
+        "label": "Southern Lord",
+        "image": " ",
+        "apple_URL": "https://music.apple.com/gb/album/primitive-and-deadly/909517028", 
+        "spotify_URL": "https://open.spotify.com/album/1IQcIcLBB1bnUOvSrKf063?si=eBWzl1cLT_GPoy-ZeiP6jw",
+        "artist__URL": "https://thronesanddominions.com/",
+        "credits": "Engineer"
+      },
+      {
+        "id": "lanegan-anthology",
+        "artist": "MARK LANEGAN",
+        "record": "Has God Seen My Shadow? An Anthology 1989–2011",
+        "year": "2014",
+        "label": "Light In The Attic",
+        "image": " ",
+        "apple_URL": "",
+        "discogs_URL": "https://www.discogs.com/Mark-Lanegan-Has-God-Seen-My-Shadow-An-Anthology-1989-2011/release/5315111",
+        "spotify_URL": "https://open.spotify.com/album/6y9TgRPDn1EBHdKggQckEy?si=mB74B8xmQ_WaldjvPXFMaQ",
+        "artist__URL": "https://www.marklanegan.com/",
+        "credits": "Engineer | Mixer | Guitar | Producer"
+      },
+      {
+        "id": "whigs-beast",
+        "artist": "THE AFGHAN WHIGS",
+        "record": "DO TO THE BEAST",
+        "year": "2014",
+        "label": "Sub Pop",
+        "image": " ",
+        "apple_URL": "https://www.discogs.com/The-Afghan-Whigs-Do-To-The-Beast/master/671305",
+        "discogs_URL": "https://www.discogs.com/Mark-Lanegan-Has-God-Seen-My-Shadow-An-Anthology-1989-2011/release/5315111",
+        "spotify_URL": "https://open.spotify.com/album/1sjcPePbtKP6IHirkxxjht?si=TldCCH5iQb6oE_HOajrEgg",
+        "artist__URL": "https://theafghanwhigs.com/",
+        "credits": "Engineer | Mixer"
+      },
+      {
+        "id": "foo-sonic",
+        "artist": "FOO FIGHTERS",
+        "record": "SONIC HIGHWAYS - OUTSIDE",
+        "year": "2015",
+        "label": "RCA",
+        "image": " ",
+        "apple_URL": "https://music.apple.com/gb/album/outside/910701272?i=910701354",
+        "discogs_URL": "https://www.discogs.com/Foo-Fighters-Sonic-Highways/master/746528",
+        "spotify_URL": "https://open.spotify.com/track/5BfbdJLRp9gUyyxeGJUECL?si=1ac86aceac674f26",
+        "artist__URL": "https://www.foofighters.com/",
+        "credits": "Engineer"
+      },
+      {
+        "id": "kim-up",
+        "artist": "KIM BINGHAM",
+        "record": "UP",
+        "year": "2012",
+        "label": "Mudgirl Music Group",
+        "image": " ",
+        "apple_URL": "https://music.apple.com/ca/album/up/701056734",
+        "discogs_URL": "https://www.discogs.com/Kim-Bingham-UP/release/4922878",
+        "spotify_URL": "https://open.spotify.com/album/0RrHVMdMtquaGp2PR5N9U9?si=AAXS6xdTRkyncA3M2HCIsQ",
+        "artist__URL": "https://kimbingham.com/",
+        "credits": "Mixer"
+      },
+      {
+        "id": "blackberry-belle",
+        "artist": "The Twilight Singers",
+        "record": "Blackberry Belle",
+        "year": "2003",
+        "label": "One Little Indian Records",
+        "image": " ",
+        "apple_URL": "https://music.apple.com/us/album/blackberry-belle/371577906",
+        "spotify_URL": "https://open.spotify.com/album/02iDgXb0svem3QVJnwhNAk?si=XL2mZ-8_QkSGSOzPSLwiHA",
+        "artist__URL": "https://www.thetwilightsingers.com/",
+        "credits": "Producer | Engineer | Mixer | K"
+      }
+  ]
+}
+]
