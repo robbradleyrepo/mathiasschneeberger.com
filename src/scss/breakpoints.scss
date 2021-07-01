@@ -1,0 +1,106 @@
+$small: 768px;
+
+.LazyLoad {
+	opacity: 0;
+	transition: all 3s ease-in-out;
+
+	&.is-visible {
+		opacity: 1;
+	}
+}
+
+.button-wrapper {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.button {
+    padding: 6px 16px;
+    background: white;
+    color: black;
+    margin: 20px 0px 20px 0px;
+    display: inline-block;
+    width: auto;
+    font-weight: 700;
+    font-size: 9px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    transition: 0.2s all ease-in-out;
+    margin-left: 20px; 
+    &:hover {
+        color: #ff2f2f;
+        opacity: 1;
+    } 
+}
+
+.inner {
+    padding: 20px 40px;
+    p {
+        font-family: 'Lato';
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-align: justify;
+        line-height: 1.4rem;
+        &.bold { 
+            // color: #ff2f2f;
+        }
+    }
+    h3 {
+        font-family: 'Lato', cursive;
+        color: black;
+        font-size: 10px;
+        text-align: end;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+    }
+
+    a.textlink {
+        border-bottom: 1px dotted white;
+        transition: 0.2s all ease-in-out;
+    
+        &:hover {
+            color: #ff2f2f;
+            border-bottom: 1px dotted #ff2f2f;    
+        } 
+    }
+
+    &.text-black {
+        p {
+            color: black;
+        }
+        a.textlink {
+            color: black;
+            border-bottom: 1px dotted black;
+            &:hover {
+                color: #ff2f2f;
+                border-bottom: 1px dotted #ff2f2f;    
+            }
+        }
+    }
+
+    .text-white {
+        color: white !important;
+    }
+}
+
+.spikes { 
+    width: 90%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: auto; 
+    right: auto;
+    top: 0;
+    z-index: 0;
+    background-image: url(../img/bg/Group4.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    background-blend-mode: unset;
+    opacity: 0.1;
+}

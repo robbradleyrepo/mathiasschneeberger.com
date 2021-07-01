@@ -1,0 +1,40 @@
+@import './breakpoints.scss';
+
+.disc {
+    justify-content: space-between;
+
+    .table {
+        width: 35vw;
+        height: 45vw;
+        mix-blend-mode: soft-light;
+        background: black;
+        opacity: 0.9;
+        align-self: flex-end;
+        // background-image: url('../img/panel-bg-1.png');
+    }
+
+    .record-master {
+        align-self: flex-end;
+    }
+
+    .record-art {
+        width: 22vw;
+        height: 20vw;
+        position: relative;
+        left: -10vw;
+        top: 10vw;
+        z-index: 1000;
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .record-info {
+        width: 35vw;
+        height: 25vw;
+        background: black;
+        opacity: 1;
+        mix-blend-mode: soft-light;
+    }
+}

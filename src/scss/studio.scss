@@ -1,0 +1,152 @@
+@import './breakpoints.scss';
+
+.master-panel {
+    position: relative;
+    margin-top: 20px;
+    width: 100vw;
+    // height: 43vw;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 1;
+    mix-blend-mode: luminosity;
+
+
+    &:after {
+        content: '';
+        width: 100%;
+        height: 30%;
+        position: absolute;
+        left: auto; right: auto;
+        top: auto;
+        bottom: auto;
+        z-index: 1;
+        mix-blend-mode: hard-light;
+        background: black;
+        opacity: 0.2;  
+    }
+
+    .copy-panel {
+        position: absolute;
+        width: 250px; 
+        overflow: hidden;
+        left: 0;
+        top: 35%;
+        border-left: 2px solid #820000;
+        z-index: 999999;
+
+        &:before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: auto; right: auto;
+            top: 0;
+            z-index: -1;
+            mix-blend-mode: hard-light;
+            opacity: 0.3;
+            background-color: black;
+        }
+
+        .copy-panel-inner {
+            padding: 10px 20px;
+            p {
+                font-size: 9px;
+                letter-spacing: 1px;
+                text-align: justify;
+                line-height: 1.1rem;
+
+                span {
+                    font-size: 10px;
+                    color: #ff2f2f;
+                    font-weight: 600;
+                }
+
+                a {
+                    transition: all 0.2s ease-in-out;
+                    border-bottom: 1px solid white;
+                    color: white;
+                    &:hover {
+                        color: #ff2f2f;
+                        border-bottom: 1px solid #ff2f2f;
+                    }
+                }
+            }
+        }
+
+        &.links {
+            top: 70%;
+            width: 150px;
+            .copy-panel-inner {
+                padding: 0px 20px;
+            }
+        }
+    }
+
+    .master-slider {
+        width: 70%;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .slider-wrapper {
+        
+        .slick-slide {
+            height: auto; // ← that must not be igno#ff2f2f
+        
+            img {
+                // width: 100%;
+                margin: auto;
+                height: auto;
+                max-height: 47vh;
+                object-fit: cover;
+                box-shadow:0 10px 16px 0 rgba(0,0,0,0.4),0 6px 20px 0 rgba(0,0,0,0.39);
+
+                @media only screen and (max-width: 1024px) {
+                    width: 100%;
+                }
+            }
+        }
+        
+        .slick-track {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: stretch;
+        }
+    }
+}
+
+
+
+.thumbnail-slider-wrap {
+
+    margin-top: 5vw;
+    height: 55px;
+    
+    .slick-track .slick-slide {
+    
+        text-align: center;
+    
+        .slick-slide {
+            height: auto; // ← that must not be igno#ff2f2f
+        
+            img {
+                max-height: 70px;
+                object-fit: cover;
+                width: 100%;
+                opacity: 0.4;
+
+            }
+        }
+        
+        .slick-track {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-items: stretch;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@import './breakpoints.scss';
+
+.mobile {
+	display: none;
+
+	@media only screen and (max-width: 650px) {
+ 
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-end;
+		align-items: flex-end;
+		position: relative;
+		/* height: 100%; */
+		z-index: 10000;
+		opacity: 1;
+		top: 0;
+		font-family: 'Lato';
+
+		p {
+			width: 60vw;
+			margin-right: 0vw;
+			background: black;
+			color: white;
+			font-family: 'Lato';
+			font-size: 10px;
+			line-height: 1.3rem;
+			/* padding: 10px; */
+			font-family: 'Lato';
+			mix-blend-mode: difference;
+			padding: 5vw 5vw;
+			letter-spacing: 1px;
+			opacity: 0.7;
+			font-weight: 700;
+
+			.grey {
+				color: grey;
+			}
+		}
+	}
+}
+
+.master-panel, 
+section.services,
+section.master-disc {
+	display: inherit;
+	@media only screen and (max-width: 650px) {
+		display: none !important;
+	}
+}
